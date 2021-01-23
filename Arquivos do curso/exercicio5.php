@@ -11,11 +11,11 @@ function calcIRPF($salario, $dependentes)
 
         echo $imposto;
 
-    }else if ($salario = 1.903 <=> 2.826) {}
+    }else if ($salario = 1.903 <=> 2.826) {
 
        $imposto =(($salario -($dependentes * 189.59))* (7.5/100)) - $dedução;
        echo $imposto;
-
+    }
 {  if ($salario = 2.826 <=> 3.751){
 
         $imposto =(($salario -($dependentes * 189.59))* (15/100)) - $dedução;
@@ -32,3 +32,4 @@ function calcIRPF($salario, $dependentes)
 }
 
 }
+
