@@ -1,7 +1,7 @@
 <?php
 
 
-function manipualdordeExcecao()
+function manipuladordeExcecao()
 {
     echo $exception -> getMessage()."<br/>";
     echo $exception -> getFile()."<br/>";
